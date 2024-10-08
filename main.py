@@ -35,4 +35,4 @@ async def query_data(request: QueryRequest):
         results, distances = milvus_db.query(request.query)
         return {"results": results, "distances": distances}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e)
+        raise HTTPException(status_code=500, detail=str(e))
