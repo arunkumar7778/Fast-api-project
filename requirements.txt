@@ -1,0 +1,9 @@
+- Python 3.7+
+- Docker (for running Milvus)
+- The following Python packages:
+  - fastapi
+  - uvicorn
+  - requests
+  - beautifulsoup4
+  - sentence-transformers
+  - pymilvus
